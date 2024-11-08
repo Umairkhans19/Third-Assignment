@@ -18,7 +18,7 @@ const Header = () => {
                       <a href="/skill" className="text-white text-lg">Skill</a>
                   </li>
                   <li>
-                      <a href="/Portfolio" className="text-white text-lg">Portfolio</a>
+                  <a href="/portfolio" className="text-white text-lg">Portfolio</a>
                   </li>
               </ul>
           </div>
@@ -26,4 +26,4 @@ const Header = () => {
     )
   }
   
-  export default Header
+  export default Header;

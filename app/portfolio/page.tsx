@@ -95,14 +95,14 @@ const Page = () => {
       </section>
 
       <footer className="mt-20 text-center">
-        <a
-          href="//https://www.linkedin.com/in/umair-khan-983788b3/" // Update this with your actual LinkedIn URL
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:underline"
-        >
-          Connect with me on LinkedIn
-        </a>
+      <a
+  href="https://www.linkedin.com/in/umair-khan-983788b3/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-blue-500 hover:underline"
+>
+  Connect with me on LinkedIn
+</a>
       </footer>
     </div>
   );
