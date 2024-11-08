@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 const Header = () => {
@@ -6,19 +7,19 @@ const Header = () => {
           <div className="bg-black text-yellow-50 ">
               <ul className="flex space-x-5">
                   <li>
-                      <a href="/" className="text-white text-lg">Home</a>
+                      <Link href="/" className="text-white text-lg">Home</Link>
                   </li>
                   <li>
-                      <a href="/about" className="text-white text-lg" >About</a>
+                      <Link href="/about" className="text-white text-lg" >About</Link>
                   </li>
                   <li>
-                      <a href="/contact" className="text-white text-lg">Contact</a>
+                      <Link href="/contact" className="text-white text-lg">Contact</Link>
                   </li>
                   <li>
-                      <a href="/skill" className="text-white text-lg">Skill</a>
+                      <Link href="/skill" className="text-white text-lg">Skill</Link>
                   </li>
                   <li>
-                  <a href="/portfolio" className="text-white text-lg">Portfolio</a>
+                  <Link href="/portfolio" className="text-white text-lg">Portfolio</Link>
                   </li>
               </ul>
           </div>
